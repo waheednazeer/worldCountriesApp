@@ -6,14 +6,11 @@
   "scripts": {
     "start": "vite",
     "build": "vite build --emptyOutDir",
-    "preview": "vite preview",
-    "test": "jest"
+    "preview": "vite preview"
   },
   "author": "Waheed",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.2.2",
-    "prettier": "^2.7.1",
     "vite": "^4.1.4"
   }
 }
