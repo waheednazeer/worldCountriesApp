@@ -3,7 +3,7 @@ import { mainTemplate } from "./htmltemplates.mjs";
 import { retrieve, help } from "./eventsHandlers.mjs";
 
 
-let wbApi="src/json/wb.json"; // I have compiled more than 8 world bank API to get data from one API store in my pc.
+let wbApi="wb.json"; // I have compiled more than 8 world bank API to get data from one API store in my pc.
 let url="../src/json/countryfactsApi.json";
 /*const url = 'https://country-facts.p.rapidapi.com/all';
 const options = {
