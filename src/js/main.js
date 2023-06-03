@@ -4,7 +4,7 @@ import { retrieve, help } from "./eventsHandlers.mjs";
 
 
 let wbApi="src/json/wb.json"; // I have compiled more than 8 world bank API to get data from one API store in my pc.
-let url="src/json/countryfactsApi.json";
+let url="src/json/country.json";
 /*const url = 'https://country-facts.p.rapidapi.com/all';
 const options = {
 	method: 'GET',
