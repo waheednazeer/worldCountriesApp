@@ -9,9 +9,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "src/index.html"),
-        wb: resolve(__dirname, "src/json/wb.json"),
-        country: resolve(__dirname, "src/json/country.json"),
-
+        feedback: resolve(__dirname, "src/pages/feedback.html"),
+        help: resolve(__dirname, "src/pages/help.html")
       },
     },
   },
