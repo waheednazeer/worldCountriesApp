@@ -19,3 +19,4 @@ Email.send({
   message => alert(message+". Thank you for your feedback!")
 );
 }
+
